@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+   box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+}
+main{
+    width: 100%;
+}
+
+#product-overview{
+
+   width: 100%;
+   height: 520px;
+   padding:10px;
+   background-image: url("/media/freedom.jpg");
+   background-size: cover;
+}
+
+#product-overview h1{
+    color:#fff;
+    text-align: center;
+}
+
+/* header */
+.main-header{
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header >div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    text-decoration: none;
+    color: #0e411f;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 64px);
+    
+}
+.main-nav__items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav__item{
+    display: inline-block;
+    padding: 4px 10px;
+    vertical-align: middle;
+    
+}
+
+.main-nav__item > a{
+    text-decoration: none;
+    color: #0e411f;
+    font-weight: bold;
+}
+
+.main-nav__item > a:hover,
+.main-nav__item > a:active
+{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+.main-nav__item--cta a{
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+  border: none;
+  color: #ff1b68;
+  background-color: #fff;
+}
+
+.plans
+{
+    width: 100%;
+}
+.section-title{
+    text-align: center;
+    width: 100%;
+}
+
+.plan
+{
+    background-color: #d5ffdc;
+    text-align: center;
+    padding :16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+/* customizing the recommended plan  */
+
+.plan--highlighted
+{
+   background-color: #19b84c;
+   color: white;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation{
+    background-color: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.plan__features{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__features li{
+    margin: 8px 0;
+}
+
+.plan__title{
+    color: #0e411f;
+}
+
+.plan__price{
+    color: #858585;
+}
+
+.plan--highlighted .plan__title{
+    color: white;
+}
+.plan--highlighted .plan__price{
+    color: #0e411f;
+}
+
+
+.button{
+    background: #0e411f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e411f;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover, .button:active{
+  color: #0e411f;
+  background-color: white;
+  border: 1.5px solid white;
+
+}
+
+.button:focus{
+    outline: none;
+}
